@@ -1,8 +1,29 @@
-.navbar {
-  display: flex;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
 }
 
-img {
+.navbar {
+  display: flex;
+  height: 5rem;
+  background-color: grey;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar img {
   width: 50px;
   height: 50px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar a {
+  text-decoration: none;
 }

@@ -4,7 +4,9 @@ import "./NavBar.css";
 export default function NavBar() {
   return (
     <div className="navbar">
-      <img src={logo} alt="logo" />
+      <a href="/">
+        <img src={logo} alt="logo" />
+      </a>
       <ul>
         <li>INICIO</li>
         <li>SONIDO EN VIVO</li>
